@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7404968A-1C47-46C5-AD6B-1A2E38EB36E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{45CFF735-F1EE-4D73-943C-D8841B901ACD}"
+	ProjectSection(SolutionItems) = preProject
+		..\doc\history.txt = ..\doc\history.txt
+		..\doc\readme.txt = ..\doc\readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{D2D3AB4B-158C-4369-8C84-6ED71CF787E5}"
+	ProjectSection(SolutionItems) = preProject
+		..\lib\readme.txt = ..\lib\readme.txt
+		..\lib\repositories.config = ..\lib\repositories.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VrijMiBoReader", "VrijMiBoReader\VrijMiBoReader.csproj", "{EAF45A93-DBDD-4989-BA31-C57778FFDE87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{80312863-5C57-406C-BB3E-43FE5A525A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VrijMiBoReader.Services", "VrijMiBoReader.Services\VrijMiBoReader.Services.csproj", "{27C5F50B-D09E-46C8-B9B4-D45E3C0643AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VrijMiBoReader.Test", "VrijMiBoReader.Test\VrijMiBoReader.Test.csproj", "{F5C8B3E2-AD38-498D-A085-7A8B0AE8FB11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAF45A93-DBDD-4989-BA31-C57778FFDE87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF45A93-DBDD-4989-BA31-C57778FFDE87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF45A93-DBDD-4989-BA31-C57778FFDE87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF45A93-DBDD-4989-BA31-C57778FFDE87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C5F50B-D09E-46C8-B9B4-D45E3C0643AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C5F50B-D09E-46C8-B9B4-D45E3C0643AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C5F50B-D09E-46C8-B9B4-D45E3C0643AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C5F50B-D09E-46C8-B9B4-D45E3C0643AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C8B3E2-AD38-498D-A085-7A8B0AE8FB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C8B3E2-AD38-498D-A085-7A8B0AE8FB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C8B3E2-AD38-498D-A085-7A8B0AE8FB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C8B3E2-AD38-498D-A085-7A8B0AE8FB11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAF45A93-DBDD-4989-BA31-C57778FFDE87} = {7404968A-1C47-46C5-AD6B-1A2E38EB36E5}
+		{27C5F50B-D09E-46C8-B9B4-D45E3C0643AD} = {7404968A-1C47-46C5-AD6B-1A2E38EB36E5}
+		{F5C8B3E2-AD38-498D-A085-7A8B0AE8FB11} = {7404968A-1C47-46C5-AD6B-1A2E38EB36E5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+VrijMiBoReader history
+======================
+
+(+) Added
+(*) Changed
+(-) Removed
+(x) Error / bug (fix)
+
+Project website: https://github.com/GeertvanHorrik/VrijMiBoReader
+Issue tracker:   https://github.com/GeertvanHorrik/VrijMiBoReader/issues
+
+**********************************************************
+
+==================
+Version 0.1
+==================
+
+Release date:
+=============
+2013/xx/xx
+
+Added/fixed:
+============
+xxxx
+
+
+**********************************************************
